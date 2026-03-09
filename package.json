@@ -1,0 +1,25 @@
+{
+  "name": "malysh-bot",
+  "version": "1.2.3",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@openrouter/sdk": "^0.9.11",
+    "@tavily/core": "^0.6.4",
+    "axios": "^1.13.2",
+    "dotenv": "^16.6.1",
+    "lodash.debounce": "^4.0.8",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^6.15.0",
+    "ws": "^8.19.0"
+  },
+  "description": ""
+}

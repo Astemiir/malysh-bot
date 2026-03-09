@@ -1,0 +1,21 @@
+cd C:\Users\Astemir\Downloads\1.2.2
+node src/index.js
+
+
+
+https://github.com/fomenks/sych-bot
+Sych Bot (Сыч) - это Telegram-бот с гибридной архитектурой искусственного интеллекта, 
+который может работать через различные API (OpenRouter, Google Gemini, OpenAI и другие). 
+Бот имеет характер, память и способен принимать автономные решения. 
+Проект написан на Node.js и использует CommonJS модули.
+
+https://habr.com/ru/articles/973804/
+
+Как запустить (Self-Hosted)
+Бот написан на Node.js (нужна версия 18+). Никаких Docker-контейнеров и баз данных поднимать не надо, всё работает из коробки.
+1. Установка
+git clone https://github.com/Veta-one/sych-bot.git
+cd sych-bot
+npm install
+2. Конфигурация (.env)
+В корне проекта создаем файл .env. Бот поддерживает горячую ротацию ключей, поэтому можно указать сколько угодно токенов Gemini — он соберет их в пул автоматически.
